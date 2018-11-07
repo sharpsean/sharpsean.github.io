@@ -10,3 +10,5 @@ fields:
 - type: datetime
   name: date
   label: Date
+pages:
+- test-page.md
