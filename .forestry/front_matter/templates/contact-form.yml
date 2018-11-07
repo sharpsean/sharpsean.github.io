@@ -7,3 +7,6 @@ fields:
   label: Name
   name: name
   description: Enter your name
+- type: datetime
+  name: date
+  label: Date
