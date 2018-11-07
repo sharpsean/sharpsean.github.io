@@ -1,0 +1,9 @@
+---
+label: Contact
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Name
+  name: name
+  default: Contact
