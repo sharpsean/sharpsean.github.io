@@ -250,8 +250,11 @@
                     <div class="colorlib-heading">
                         <h2>Free Legal Consultation</h2>
                     </div>
-                    <form action="#" data-netlify="true">
+                    <form action="#" data-netlify="true" netlify-honeypot="bot-field">
                         <div class="row form-group">
+				  <p style="display:none;">
+    <label>Don’t fill this out: <input name="bot-field"></label>
+  </p>
                             <div class="col-md-6">
                                 <!-- <label for="fname">First Name</label> -->
                                 <input type="text" id="fname" class="form-control" placeholder="First Name">
