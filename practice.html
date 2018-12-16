@@ -189,39 +189,40 @@
                     <div class="colorlib-heading">
                         <a href=""><h2>Free Legal Consultation</h2></a>
                     </div>
-                    <form action="#" data-netlify="true">
-                        <div class="row form-group">
-                            <div class="col-md-6">
-                                <!-- <label for="fname">First Name</label> -->
-                                <input type="text" id="fname" class="form-control" placeholder="First Name">
-                            </div>
-                            <div class="col-md-6">
-                                <!-- <label for="lname">Last Name</label> -->
-                                <input type="text" id="lname" class="form-control" placeholder="Last Name">
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <!-- <label for="email">Email</label> -->
-                                <input type="text" id="email" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <!-- <label for="subject">Subject</label> -->
-                                <input type="text" id="subject" class="form-control" placeholder="Subject">
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <!-- <label for="message">Message</label> -->
-                                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Brief description of your legal matter"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Send Message" class="btn btn-primary">
-                        </div>
-                    </form>                     
+                   <form name="practicepage" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                                <div class="row form-group">
+					  <p style="display:none;">
+    <label>Don’t fill this out: <input name="bot-field"></label>
+  </p>
+                                    <div class="col-md-6">   
+                                        <input type="text" name="First Name" id="fname" class="form-control" placeholder="First Name" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="Last Name" id="lname" class="form-control" placeholder="Last Name" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-md-6">
+                                        <input type="text" name="Email" id="email" class="form-control" placeholder="E-mail address" />
+                                    </div>
+					                                    <div class="col-md-6">
+                                        <input type="text" name="Phone" id="phone" class="form-control" placeholder="Phone Number" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <input type="text" name="Subject" id="subject" class="form-control" placeholder="Subject" />
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Brief description of your legal issue"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                </div>
+                            </form>                             
                 </div>
             </div>
             <footer id="colorlib-footer" role="contentinfo">
