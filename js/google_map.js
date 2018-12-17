@@ -36,8 +36,6 @@ function init() {
     
     var addresses = ['333 South Wabash Avenue, Chicago, IL 60604'];
 
-marker.setMap(map);
-        });
     }
     
 }
