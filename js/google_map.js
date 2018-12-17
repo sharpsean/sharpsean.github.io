@@ -10,7 +10,7 @@ function init() {
     // -8.224454
     
       var marker = new google.maps.Marker({
-    position: myLatLng,
+    position: 41.877615, -87.625710,
     map: map,
     title: '333 South Wabash Avenue, Suite 2700, Chicago, IL 60604'
           
