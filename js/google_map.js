@@ -47,7 +47,7 @@ function init() {
                 map: map,
                 icon: 'images/loc.png'
             });
-
+marker.setMap(map);
         });
     }
     
