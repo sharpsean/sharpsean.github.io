@@ -30,7 +30,7 @@ function init() {
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
     
-    var addresses = ['Chicago'];
+    var addresses = ['333 South Wabash Avenue, Chicago, IL 60604'];
 
     for (var x = 0; x < addresses.length; x++) {
         $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x], null, function (data) {
