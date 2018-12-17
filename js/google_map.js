@@ -14,7 +14,7 @@ function init() {
         zoom: 12,
 
         // The latitude and longitude to center the map (always required)
-        center: myLatlng,
+        center: 333 South Wabash Avenue, Chicago, IL 60604,
 
         // How you would like to style the map. 
         scrollwheel: false,
