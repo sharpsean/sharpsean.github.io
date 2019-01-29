@@ -599,8 +599,7 @@ background: #31486f;  }
   font-size: 16px; }
 
 #colorlib-intro {
-  z-index: 0;
-  padding-bottom: 7em; }
+  z-index: 0; }
 
 .third-col {
   padding: 2em;
