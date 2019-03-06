@@ -2,6 +2,7 @@
 layout: default
 title: Employment Law
 permalink: /practice/employment-law/
+active: practice
 ---
 
 * Discrimination Claims

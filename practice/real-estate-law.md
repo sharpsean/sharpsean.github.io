@@ -2,6 +2,7 @@
 layout: default
 title: Real Estate Law
 permalink: /practice/real-estate-law/
+active: practice
 ---
 
 * Landlord Tenant

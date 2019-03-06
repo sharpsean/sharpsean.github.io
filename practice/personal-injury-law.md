@@ -2,6 +2,7 @@
 layout: default
 title: Personal Injury
 permalink: /practice/personal-injury-law/
+active: practice
 ---
 
 * Motor Vehicle Accidents

@@ -2,6 +2,7 @@
 layout: default
 title: Class Actions
 permalink: /practice/class-actions/
+active: practice
 ---
 
 * Consumer fraud/deceptive business practices

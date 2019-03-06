@@ -69,15 +69,16 @@
                                     <a href="/" class="text-nowrap">the<span>sharp</span>lawfirm<span style="font-size: 9px">LLC</span><br></a>
                                 </div>
                             </div>
+
                             <div class="text-right menu-1 col-md-9">
                                 <ul>
                                     <li>
                                         <a href="/">Home</a>
                                     </li>
-                                    <li>
+                                    <li {% if page.active == "about" %}class="active"{% endif %}>
                                         <a href="/about">About</a>
                                     </li>
-                                    <li class="has-dropdown">
+                                    <li class="has-dropdown{% if page.active == "practice" %} active{% endif %}">
                                         <a href="/practice">Practice Areas</a>
                                         <ul class="dropdown">
                                             <li>
@@ -100,10 +101,10 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li {% if page.active == "blog" %}class="active"{% endif %}>
                                         <a href="/blog">Blog</a>
                                     </li>
-                                    <li>
+                                    <li {% if page.active == "contact" %}class="active"{% endif %}>
                                         <a href="/contact">Contact</a>
                                     </li>
                                     <li class="btn-cta">
@@ -111,6 +112,7 @@
                                     </li>
                                 </ul>
                             </div>
+
                         </div>
                     </div>
                 </div>

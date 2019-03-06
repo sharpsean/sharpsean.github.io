@@ -2,6 +2,7 @@
 layout: default
 title: Consumer Rights
 permalink: /practice/consumer-rights/
+active: practice
 ---
 
 * Investment Fraud

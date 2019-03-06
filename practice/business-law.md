@@ -2,6 +2,7 @@
 layout: default
 title: Business Law
 permalink: /practice/business-law/
+active: practice
 ---
 
 ## Business Disputes and Litigation
